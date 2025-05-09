@@ -1,0 +1,262 @@
+header{
+    height: 137px;
+    width: 100%;
+    background: linear-gradient(#d5d5d5,#fff, #fff, #fff);
+    padding: 37px 0 24px 0;
+    text-align: center;
+}
+.container{
+    width: 920px;
+    display: flex;
+    margin: auto;
+}
+#logo img{
+    width: 286px;
+    height: 76px;
+}
+header ul{
+    display: flex;
+    margin: auto;
+    margin-left: 68px;
+    text-align: left;
+}
+header li{
+    padding: 0 8px 8px 8px;
+    border-left: 1px dashed #d6d6d6;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Georgia";
+}
+header li a span{
+    font-size: 11px;
+    color: #b7b7b7;
+    font-family: "Tahoma";
+}
+header li a{
+    text-decoration: none;
+    color: #666666;
+}
+main{
+    background: #fff url('./img/mainbg.jpg') repeat-x;
+    padding: 22px 0 0 0;
+    width: 100%;
+    height: 1400px;
+}
+.blok{
+    width: 920px;
+    height: 343px;
+    margin: auto;
+}
+.blok img{
+    width: 920px;
+    height: 343px;
+    border-radius: 7px;
+    border: 1px solid #c6c6c6;
+}
+.blok h1{
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Georgia";
+    text-align: center;
+    margin-top: 20px;
+}
+.first-trio{
+    display: flex;
+}
+.first-trio div{
+    width: 34%;
+    font-family: "Georgia";
+}
+.first-trio h2{
+    margin-top: 37px;
+    color: #5096b8;
+    font-size: 22px;
+    margin-left: 4px;
+}
+.first-trio img{
+    height: 178px;
+    width: 95%;
+    border: 7px solid #f3f3f3;
+    border-radius: 4px;
+    margin: 18px 0;
+}
+.first-trio .header{
+    color: #b7b7b7;
+    font-size: 14px;
+    margin-left: 4px;
+}
+.first-trio .footer{
+    font-family: "Helvetica";
+     color: #3e3e3e;
+     font-size: 16px;
+     margin-left: 4px;
+     padding-right: 30px;
+}
+.first-trio a{
+    margin-top: 37px;
+    margin-left: 4px;
+    border: 1px solid #d8d8d8;
+    display: inline-block;
+    padding: 12px 0 12px 12px;
+    width: 182px;
+    margin-bottom: 35px;
+    color: #5096b8;
+    background: linear-gradient( to right, #e8e8e8, #fff, #f7f7f7, #f0f0f0, #e8e8e8);
+    border-radius: 4px;
+}
+.first-trio a i{
+    font-size: 20px;
+}
+.last-trio{
+    display: flex;
+    border-top: 1px solid #d3d3d3;
+    width: 920px;
+}
+.last-trio .last{
+    width: 320px;
+    padding: 42px 16px 0 10px;
+}
+.last div{
+    display: flex;
+}
+.last img{
+    width: 57px;
+    height: 57px;
+}
+.last h2{
+    font-size: 18px;
+    color: #444444;
+    font-family: "Georgia";
+    border-bottom: 3px dashed#d3d3d3;
+    padding-bottom: 10px;
+}
+.last p{
+    width: 299px;
+    height: 57px;
+    font-size: 12px;
+    margin-top: 14px;
+    color: #444444;
+    font-family: "Helvetica";
+}
+.last .news{
+    font-size: 18px;
+    color: #444444;
+    font-weight: 900;
+    font-family: "Gill Sans";
+    border-bottom: 3px dashed #d3d3d3;
+}
+.icons a:last-child{
+    margin-right: 0;
+}
+.icons{
+    margin-bottom: 45px;
+}
+.icons a{
+    width: 50px;
+    height: 50px;
+    margin-right: 13px;
+    background: url(./img/icons.png);
+    border-radius: 7px;
+    border: 2px solid #8e8e8e;
+}
+.icons .rss:hover{
+    background-position: 0 -50px
+}
+.icons .fcb{
+    background-position: -50px 0;
+}
+.icons .fcb:hover{
+    background-position: -50px -50px;
+}
+.icons .lnd{
+    background-position: -100px 0;
+}
+.icons .lnd:hover{
+    background-position: -100px -50px;
+}
+.icons .ytb{
+    background-position: -150px 0;
+}
+.icons .ytb:hover{
+    background-position: -150px -50px;
+}
+.icons .twt{
+    background-position: -200px 0;
+}
+.icons .twt:hover{
+    background-position: -200px -50px;
+}
+.last input, textarea{
+    padding: 12px 0 12px 13px;
+    width: 279px;
+    border-radius: 4px;
+    border: 1px solid #cfcfcf;
+}
+.last button{
+    margin-top: 11px;
+    border: 1px solid #d8d8d8;
+    padding: 12px 0 12px 12px;
+    width: 182px;
+    text-align: start;
+    margin-bottom: 23px;
+    color: #fff;
+    background: linear-gradient( to right, #487cb4, #376ea6, #3974b0, #2f6294, #306193);
+    border-radius: 4px;
+}
+.contact input, textarea{
+    margin-top: 15px;
+}
+.contact textarea{
+    height: 158px;
+}
+.new div{
+    height: 104px;
+}
+.new button{
+    margin-top: 14px;
+}
+.new div img{
+    margin: 22px 8px 10px 0;
+    border: 6px solid #f0f0f0;
+}
+.new div p{
+    margin-top: 22px;
+}
+.new div{
+    border-bottom: 3px dashed#d3d3d3;
+}
+footer{
+    height: 183px;
+    background-color: #333333;
+    color: #999;
+    display: flex;
+}
+footer div p,ul{
+    font-size: 11px;
+    color: #999999;
+    font-family: "Helvetica";
+}
+footer div p{
+    margin-left: 8px;
+}
+footer ul{
+    display: flex;
+    margin: 11px 0;
+}
+footer ul li{
+    border-right: 1px solid #999;
+    padding: 0px 8px;
+}
+footer ul li:last-child{
+    border: 0;
+}
+footer .righttext{
+    margin: 28px 0 0 310px;
+}
+footer .lefttext{
+    margin: 28px 0 0 302px;
+}
+.social button{
+    margin-top: 15px;
+}
