@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 77px;
+    display: flex;
+    color: #8b97a0;
+}
+header p{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 360px;
+    margin-top: 10px;
+}
+li{
+    margin: 20px;
+}
+ul li a:hover{
+    color: rgb(11, 11, 202);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #8b97a0;
+}
+.first{
+    background: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+    height: 720px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.container1{
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    color: white;
+}
+.container1 h1{
+    font-size: 56px;
+    font-weight: 200; 
+}
+.container1 p{
+    margin: 20px 0px;
+}
+section button{
+    width: 200px;
+    height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+}
+section .btn1{
+    background-color: #745cf9;
+    border: none;
+}
+section .btn1:hover{
+    background-color: #4f3eaf;
+    cursor: pointer;
+}
+section .btn2:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+}
+section .btn2{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    margin-left: 5px;
+}
+.container2{
+    display: flex;
+    margin: 0, 15px;
+}
+.container2 .img{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.container2 img{
+    width: 630px;
+    margin-top: 60px;
+    margin-left: 170px;
+}
+.container2 div{
+    width: 50%;
+}
+.text{
+    padding: 110px;
+    color: #8c979e;
+    margin-left: 50px;
+}
+.text h2{
+    color: #0E1015;
+    margin: 0 0 24px;
+    font-size: 32px;
+    font-weight: 100;
+}
+.text p{
+    margin: 0 0 24px;
+}
+.third{
+    background-color: #f5f5f5;
+    color: #8c979e;
+}
+.container2 .text-left{
+    width: 33%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.container2 .img-right img{
+    margin-left: 40px;
+}
+.sctn4{
+    background: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-attachment: fixed;
+}
+section .container4{
+    position: absolute;
+    top: 30%;
+    color: white;
+    left: 200px;
+}
+section .container4 h1{
+    font-size: 56px;
+}
+section .container4 p{
+    margin: 20px 0;
+}
+.sctn5{
+    padding: 96px 0 24px;
+}
+.sctn5, .sctn6 {
+    text-align: center;
+    background-color: #f5f5f5; 
+}
+.sctn5 h2{
+    color: #14161d;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 100;
+}
+.sctn5 p{
+    color: #8c979e;
+    margin-bottom: 24px;
+}
+.sctn6{
+    height: 867px;
+}
+.sctn6 img{
+    width: 80%;
+    height: 867px;
+    margin: auto;
+}
+.sctn7{
+    text-align: center;
+    background-color: #0e1015;
+    color: white;
+    padding: 96px 0 40px;
+}
+.sctn7 h2,  .sctn9 h2, .sctn10 h2, .sctn11 h2{
+    font-size: 32px;
+    font-weight: 100;
+}
+.sctn7 p{
+    margin-top: 32px;
+}
+.sctn8 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0e1015;
+}
+.sctn8 div{
+    width: 25%;
+    height: 270px;
+}
+.sctn8 div{
+    background-size: cover;
+}
+.sctn8 div::after{
+    content: "Project";
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.3);
+    opacity: 0;
+    width: 25%;
+    height: 270px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sctn8 div:hover::after{
+    opacity: 1;
+}
+.sctn8 #div1{
+    background-image: url(./img/div1.jpg);
+}
+.sctn8 #div2{
+    background-image: url(./img/div2.jpg);
+}
+.sctn8 #div3{
+    background-image: url(./img/div3.jpg);
+}
+.sctn8 #div4{
+    background-image: url(./img/div4.jpg);
+}
+.sctn8 #div5{
+    background-image: url(./img/div5.jpg);
+}
+.sctn8 #div6{
+    background-image: url(./img/div6.jpg);
+}
+.sctn8 #div7{
+    background-image: url(./img/div7.jpg);
+}
+.sctn8 #div8{
+    background-image: url(./img/div8.jpg);
+}
+.sctn8 #div9{
+    background-image: url(./img/div9.jpg);
+}
+.sctn8 #div10{
+    background-image: url(./img/div20.jpg);
+}
+.sctn9{
+    text-align: center;
+    color: white;
+    background: url(./img/photo-1451417379553-15d8e8f49cde.jpg);
+    padding: 96px 0 48px;
+    background-attachment: fixed;
+}
+.sctn9 h2{
+    margin-bottom: 40px;
+}
+.sctn9 img{
+    background: url(./img/man.jpg);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+.sctn10 {
+    text-align: center;
+    padding: 100px;
+    color: #0e1015;
+}
+.sctn10 a{
+    font-size: 60px;
+    margin: 50px 130px 0;
+}
+.sctn10 a:hover{
+    cursor: pointer;
+}
+.fa-html5:hover {
+    color: orange;
+}
+.fa-css3-alt:hover {
+    color: rgb(57, 57, 215);
+}
+.fa-sass:hover {
+    color: rgb(0, 0, 78);
+}
+.fa-square-facebook:hover{
+    color: rgb(35, 35, 156);
+}
+.sctn11{
+    background-color: #f5f5f5; 
+    padding: 85px;
+    color: #0e1015;
+    text-align: center;
+}
+.sctn11-container{
+    width: content;
+    display: flex;
+}
+.sctn11 h2{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.sctn11 button{
+    background-color: #745cf9;
+    color: white;
+    border: none;
+    margin: auto;
+    margin-right: 200px;
+}
+.sctn11 button:hover {
+    color: white;
+    background-color: #4f3eaf;
+}
+footer{
+    display: flex;
+    padding: 98px 0;
+    background-color: #0e1015;
+    color: white;
+}
+footer h4{
+    font-weight: 100;
+    margin-left: 150px;
+}
+footer h4 a{
+    color: white;
+}
+footer h4 a:hover{
+    color: rgb(9, 9, 153);
+}
+footer .icons{
+    display: flex;
+    margin: auto;
+    margin-right: 200px;
+}
+footer .icons a{
+    font-size: 20px;
+    margin: 0px 10px;
+    color: white;
+}
+footer .icons a:hover{
+    color: #5644c0;
+    cursor: pointer;
+}
