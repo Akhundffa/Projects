@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+    background-color: #000;
+    color: #fff;
+    }
+    main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    }
+    div{
+    text-align: center;
+    }
+    input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    }
+    button {
+    background-color: green;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    }
+    #spn{
+    margin-top: 10px;
+    }
+    #startGame{
+    margin-top: 10px;
+    }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Rəqəm Tapma Oyunu</h1>
+        <div>
+            <h3>Random ədədin olmasını istədiyiniz aralığı daxil edin...</h3>
+            <input type="number" placeholder="Min" id="inp1"> 
+            <input type="number" placeholder="Max" id="inp2"> 
+            <input type="number" placeholder="Cəhd sayı" id="inp3"> <br>
+            <button onclick="basla()" id="startGame">Oyuna Başla</button>
+            <div id="spn" style="display: none;">
+            <input id="inpGuess" type="number" placeholder="Rəqəmi təxmin et">
+            <button onclick="guess()">Yoxla</button>
+            </div>
+        </div>
+        <div id="cehdSec"></div>
+        <div id="content"></div>
+    </main>
+
+    <script>
+        const content = document.getElementById('content')
+        const inpGuess = document.getElementById('inpGuess')
+        const cehdSec = document.getElementById('cehdSec')
+        let randNum 
+        let cehdSayi=document.getElementById("inp3");
+        let cehd = +cehdSayi.value;
+
+        function showCehd() {
+            cehdSec.innerHTML = cehd
+        }
+        
+        function basla() {
+            const min = +document.getElementById('inp1').value;
+            const max = +document.getElementById('inp2').value;
+            if (min >= max) {
+                content.innerHTML = 'Min və max dəyərləri düzgün daxil edin';
+            }
+            randNum = getRndInteger(min, max);
+            cehd = +cehdSayi.value;
+            showCehd();
+            document.getElementById('spn').style.display = 'block';
+            content.innerHTML = '';
+        }
+
+        function guess() {
+            if(cehd > 0) cehd--
+            showCehd()
+            if(cehd == 0 && +inpGuess.value!=randNum) {
+                content.innerHTML = 'Bəxtinizi bir daha sınayın!!!';
+                document.getElementById('spn').style.display = 'none';
+                cehdSec.innerHTML= "Cəhd sayınız bitdi."
+            } else if (+inpGuess.value > randNum) {
+                content.innerHTML = 'Bir az aşağı..';
+            } else if(+inpGuess.value < randNum) {
+                content.innerHTML = 'Bir az yuxarı..';
+            } else {
+                content.innerHTML = 'Əhsən!!!';
+                document.getElementById('spn').style.display = 'none';
+            }
+        }
+        
+        function getRndInteger(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+    </script>
+</body>
+</html>
