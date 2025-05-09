@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+header{
+    height: 100vh;
+    background: url(../img/headerbg.jpg) 55% center/cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    font-family: "Avenir Next Rounded Std";
+    display: flex;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.logo{
+    width: 153px;
+    height: 49px;
+    background-image: url(../img/logo-fitness.png);
+    margin-top: 39px;
+    margin-left: 52px;
+}
+nav ul a{
+    color: white;
+}
+nav ul li{
+    margin: 0 30px;
+}
+.bttm h1, h5{
+    color: #fff;
+    font-family: "Myriad Pro";
+}
+.bttm h1{
+    font-size: 40px;
+}
+.bttm h5{
+    font-size: 15px;
+    padding-top: 14px;
+}
+.bttm{
+    position: absolute;
+    bottom: 16vh;
+    margin-left: 40px;
+}
+.texts .center{
+    width: 80%;
+    color: white;
+    display: flex;
+    margin: auto;
+    padding: 109px 0;
+}
+.bckqirmizi .center{
+    display: flex;
+}
+.imgred .center{
+    height: 330px;
+} 
+.imgred2 .center{
+    height: 330px;
+}
+.imgred .center .lifestyle{
+    background: url(../img/lifestyle.png) center/cover;
+    width: 33.3%;
+}
+.imgred .center .summeroffun{
+    background: url(../img/summeroffun.png) center/cover;
+    width: 66.6%;
+}
+.imgred2 .center .grape{
+    background: url(../img/grape.jpg) center/ cover;
+    width: 66.6%;
+}
+.imgred2 .center .mango{
+    background: url(../img/mango.jpg) center/ cover;
+    width: 33.3%;
+}
+.txtleft2{
+    width: 66.6%;
+}
+.txtred2 h2{
+    font-size: 35px;
+    font-family: "Open Sans";
+    margin-top: 14px;
+    margin-bottom: 31px;
+}
+.txtred2 p{
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: white;
+    line-height: 24px;
+}
+.txtleft2 p{
+    color: #656e74;
+}
+.txtright2{
+    width: 33.3%;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-right: 63px;
+    padding-bottom: 50px;
+    
+}
+.texts .center .blok .icon{
+    font-size: 30px;
+    width: 44px;
+    height: 44px;
+    border-radius: 11px;
+    color:white;
+}
+.blok{
+    margin-right: 39px;
+}
+.texts .center h2{
+    font-size: 24px;
+    font-family: "Open Sans";
+    margin-top: 14px;
+    margin-bottom: 31px;
+}
+.texts .center p{
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+.texts .center p, a{
+    font-size: 14px;
+    font-family: "Proxima Nova";
+    color: white;
+}
+.texts .center .blok{
+    padding-left: 4px;
+}
+.text .center .last{
+    margin-right: 0px !important;
+}
+.images .center, .qirmizi .center{
+    width: 80%;
+    color: white;
+    display: flex;
+    margin: auto;
+}
+.sctnlast{
+    padding-top: 240px;
+    padding-bottom: 450px;
+    text-align: center;
+    background: url(../img/footerbg.jpg) center/cover;
+}
+.txtlast h2{
+    font-size: 45px;
+    color: #fff;
+    font-family: "Open Sans";
+    margin-bottom: 34px;
+}
+.txtlast p{
+    font-size: 16px;
+    line-height: 23px;
+    color: #fff;
+    font-family: "Open Sans";
+}
+footer{
+    background-color: #0c1119;
+    color: white;
+    padding: 65px 20px 30px 20px;
+}
+.txtfooter{
+    display: flex;
+}
+.txtfooter .txtftr, .iconsfooter{
+    margin: 0 10px;
+    width: 470px;
+}
+.iconsftr {
+    display: flex;
+    margin-top: 18px;
+}
+.face {
+    background-color: #2e3092;
+}
+.twt{
+    background-color: #00adef;
+}
+.ytb{
+    background-color: #ed3123;
+}
+.lnkd{
+    background-color: #16198f;
+}
+.iconsftr i{
+    font-size: 20px;
+}
+.txtfooter{
+    justify-content: center;
+}
+.txtfooter .res{
+    margin-left: 150px;
+}
+.iconsftr div{
+    margin: 0 7px;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.iconsfooter h4{
+    padding-left: 7px;
+}
+.txtfooter .txtftr h4, .iconsfooter h4{
+    font-size: 15px;
+    color: #fff;
+    font-family: "Open Sans";
+}
+.txtfooter .txtftr p{
+    margin-top: 17px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8297a7;
+    font-family: "Open Sans";
+}
+.bttnfooter{
+    margin-top: 30px;
+    text-align: end;
+}
+footer input{
+    padding: 19px 24px;
+    width: 300px;
+    border: none;
+}
+.bttnfooter a{
+    display: inline-block;
+    padding: 18px;
+    border: none;
+    background-color: #a1c927;
+    color: white;
+    margin-right: 180px;
+}
+.images .center .txt{
+    width: 33.3%;
+}
+.images .center .img{
+    width: 66.6%;
+}
+.images .img{
+    background: url(../img/fitnessfirst.png) center/cover;
+}
+.images .img2{
+    background: url(../img/yourbody.png) center/cover;
+}
+.imagesred .imgred1{
+    width: 33.3%;
+}
+.imagesred .imgred2{
+    width: 66.6%;
+}
+.imagesred .imgred1{
+    background: url(../img/lifestyle.png) center/cover;
+}
+.imagesred .imgred2{
+    background: url(../img/summeroffun.png) center/cover;
+}
+.images .txt h3, .txtred .txt h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+.images .txt h2, .txtred .txt h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-bottom: 24px;
+    font-family: "Open Sans";
+}
+.images .txt p{
+    color: #656e74;
+}
+.images .txt p, .txtred .txt p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 26px;
+    font-family: "Open Sans";
+}
+.images .txt {
+    text-align: center;
+    padding: 55px 54px 100px 55px;
+    background-color: white;
+}
+.txtred .txtleft, .txtred2 .txtleft2{
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 56px;
+    padding-bottom: 67px;
+}
+.txtred .txtleft{
+    width: 33.3%;
+}
+.imagesred .imgleft{
+    width: 33.3%;
+}
+.imagesred .imgright{
+    width: 66.6%;
+}
+.txtred .txtleft p{
+    color: #656e74;
+}
+.txtred .txtleft i{
+    color:#656e74;
+}
+.txtred .txtright{
+    padding-left: 68px;
+    padding-top: 63px;
+    color: white;
+}
+.txtred .txtright{
+    width: 66.6%;
+}
+.qirmizi {
+    background-color:#fd634d;
+}
+.bckysl{
+    background-color: #a1c927;
+}
+.bckqirmizi{
+    background-color: #fd634d;
+}
+.txtysl{
+    color: #a1c927;
+}
+.txtqirmizi{
+    color:#fd634d;
+}
+.txtag{
+    color: white;
+}
+.bckag{
+    background-color: white;
+}

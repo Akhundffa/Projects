@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/fonts/OpenSans_Condensed-Regular.ttf);
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(/fonts/Fontspring-DEMO-proximanova-regular.otf);
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url(/fonts/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: 'Avenir Next Rounded Std';
+    src: url(/fonts/AvenirNextRoundedStd-Reg.ttf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
