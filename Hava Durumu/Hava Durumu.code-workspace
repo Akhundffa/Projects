@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../UDEMY"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Hava Durumu"
+	}
+}
