@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Hello! This is my calculator!</h3>
+    <div id="calc">
+        <input type="text" id="inp">
+        <div id="container">
+            <button onclick="clean()">AC</button>
+            <button onclick="backspace()">←</button>
+            <button onclick="press('%')">%</button>
+            <button onclick="press('/')">÷</button>
+            <button onclick="press('7')">7</button>
+            <button onclick="press('8')">8</button>
+            <button onclick="press('9')">9</button>
+            <button onclick="press('*')">×</button>
+            <button onclick="press('4')">4</button>
+            <button onclick="press('5')">5</button>
+            <button onclick="press('6')">6</button>
+            <button onclick="press('-')">-</button>
+            <button onclick="press('1')">1</button>
+            <button onclick="press('2')">2</button>
+            <button onclick="press('3')">3</button>
+            <button onclick="press('+')">+</button>
+            <button onclick="press('0')">0</button>
+            <button onclick="press(',')">,</button>
+            <button id="eq" onclick="calc()">=</button>
+        </div>
+    </div>
+
+    <script>
+        let inp= document.getElementById("inp");
+        let eq= document.getElementById("eq");
+
+        function press(x) {
+            inp.value += x;
+        }
+
+        function calc() {
+            inp.value= eval(inp.value);
+        }
+        function clean() {
+            inp.value= "";
+        }
+        function backspace() {
+            inp.value= inp.value.slice(0, -1);
+        }
+
+    </script>
+</body>
+</html>
