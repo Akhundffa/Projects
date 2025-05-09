@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>To Do List</h2>
+    <div id="container">
+        <div id="title">
+        <input type="text" id="inp" placeholder="Enter a to do...">
+        <button onclick="add()">Add</button>
+    </div>
+        <ul id="list"></ul>
+    </div>
+
+    <script>
+        let inp= document.getElementById("inp");
+        let list= document.getElementById("list");
+        let a=1;
+        function add() {
+            a++;
+            let li = document.createElement("li");
+            li.id = `c${a}`;
+            li.innerHTML = `${inp.value} <button onclick="sil('${li.id}')">x</button>`;
+            list.appendChild(li);
+        }
+        function sil(id) {
+            const li = document.getElementById(id);
+            li.style.textDecoration = "line-through";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Wittgenstein", serif;
+}
+body{
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/pink-texure_95678-41.jpg?w=996&t=st=1720456856~exp=1720457456~hmac=5f90de26283b21804af0524d14757935fbf889ce539fc12ad9404263f6226132);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    font-size: 40px;
+    font-style: italic;
+    color: #813340;
+}
+input{
+    color: rgb(255, 105, 130);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #ff768d;
+    width: 75%;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+#title button{
+    outline: none;
+    color: #813340;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #ff768d;
+    font-size: 18px;
+    width: 23%;
+    padding: 10px;
+    background-color: rgb(255, 224, 229);
+}
+ul{
+    margin-top: 30px;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: rgb(255, 105, 130);
+    box-shadow: 5px 5px 10px #ff768d;
+    background-color: white;
+    list-style-type: none;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+ul li button{
+    background-color: pink;
+    color: white;
+    width: 40px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+#container{
+    margin: auto;
+    width: 390px;
+    font-size: 18px;
+}
